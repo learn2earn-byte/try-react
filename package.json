@@ -3,10 +3,25 @@
   "name": "absurdverse-react",
   "version": "1.0.0",
   "private": true,
+  "description": "A React project for learning and experimentation",
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/learn2earn-byte/try-react.git"
+  },
+  "homepage": "https://github.com/learn2earn-byte/try-react#readme",
+  "bugs": {
+    "url": "https://github.com/learn2earn-byte/try-react/issues"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "vite",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "jest"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -17,5 +32,9 @@
     "tailwindcss": "^3.3.0",
     "autoprefixer": "^10.4.0",
     "postcss": "^8.4.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
   }
 }
