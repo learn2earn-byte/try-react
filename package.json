@@ -1,6 +1,7 @@
 {
   "name": "absurdverse-react",
   "version": "1.0.0",
+  "type": "module",
   "private": true,
   "description": "A React project for learning and experimentation",
   "author": "Your Name",
